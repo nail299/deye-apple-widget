@@ -59,7 +59,7 @@ Since this script runs locally on your Apple device and your credentials are har
 If the values in the widget are colored gray and the word `(Cache)` appears in the footer, it means that the script cannot fetch live data from the inverter and is freezing the old data for safety. 
 There are three possible causes for this:
 
-1. **It is nighttime or cloudy:** Deye inverters are powered directly by the solar panels. As soon as the sun stops shining, the inverter's internal Wi-Fi logger shuts down completely. This is absolutely normal! The widget saves your data, sets the current power output to `0 W`, and automatically switches back to **Green (●)** and live mode the next morning when the sun comes up.
+1. **It is nighttime or cloudy:** Deye inverters are powered directly by the solar panels. As soon as the sun stops shining, the inverter's internal Wi-Fi logger shuts down completely. This is absolutely normal! The widget saves your data, sets the current power output to `0 W`, and automatically switches back to **Green (🟢)** and live mode the next morning when the sun comes up.
 2. **Wrong Wi-Fi network:** Since the inverter is queried via its local IP address, live polling only works if your iPhone/Mac is on the **same home Wi-Fi**. If you are away on a cellular network (LTE/5G) without being connected to your home VPN, or if you are in a separate guest Wi-Fi, the script cannot reach the inverter and switches to cache mode.
 3. **Incorrect credentials or IP:** Check the variables `DEYE_IP`, `USER`, and `PASS` at the very top of the script. If the inverter's IP address has changed via the router or the password is wrong, the login will fail.
    * *Solution tip:* Assign a **"static IP address"** to the inverter in your router settings.
