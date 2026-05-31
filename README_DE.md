@@ -25,7 +25,7 @@ Das Widget läuft im **Small-Format** (quadratisch) und bietet ein intelligentes
 
 1. **IP-Adresse herausfinden:** Stelle sicher, dass dein Deye-Wechselrichter eingeschaltet ist. Finde seine lokale IP-Adresse in deinem Router heraus (z. B. `192.168.178.50`). Tippe diese IP in einen Browser ein, um zu prüfen, ob du auf die Status-Webseite des Inverters gelangst.
 2. **Scriptable vorbereiten:** Öffne die App **Scriptable** auf deinem Apple-Gerät und erstelle über das **+** Symbol oben rechts ein neues, leeres Skript. Nenne es z. B. `Deye-Inverter`.
-3. **Code einfügen:** Kopiere den kompletten JavaScript-Code aus der Datei `widget-deye-inverter.js` hier aus GitHub und füge ihn in das leere Skript in der App ein.
+3. **Code einfügen:** Kopiere den kompletten JavaScript-Code aus der Datei `widget-deye-inverter-DE.js` hier aus GitHub und füge ihn in das leere Skript in der App ein.
 4. **Konfiguration anpassen:** Passe ganz oben im Code im Block `1. BENUTZER-EINSTELLUNGEN` deine Daten an:
 ```javascript
    const DEYE_IP = "192.168.XXX.XXX"; // Die IP deines Inverters
