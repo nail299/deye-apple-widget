@@ -21,7 +21,7 @@ Das Widget läuft im **Small-Format** (quadratisch) und bietet ein intelligentes
 
 | Komponente | Details |
 | :--- | :--- |
-| **Wechselrichter** | Ein Deye-Inverter mit integriertem WLAN-Logger (erreichbar über eine lokale IP-Adresse im selben Netzwerk). |
+| **Wechselrichter** | Ein Deye-Inverter (oder kompatibel) mit integriertem WLAN-Logger (erreichbar über die lokale IP-Adresse im selben Netzwerk). |
 | **Zugangsdaten** | Benutzername und Passwort für die Weboberfläche des Wechselrichters (Standard oft `admin` / `admin`). |
 | **Apple-Gerät** | Ein iPhone, iPad oder Mac im selben WLAN-Netzwerk wie der Wechselrichter. |
 | **App** | Die kostenlose App **Scriptable** aus dem App Store. |
