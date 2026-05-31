@@ -29,7 +29,7 @@ The widget runs in the **Small format** (square) and features smart caching: If 
 
 1. **Find the IP address:** Make sure your Deye inverter is turned on. Find its local IP address in your router (e.g., `192.168.178.50`). Type this IP into a web browser to check if you can reach the inverter's status page.
 2. **Prepare Scriptable:** Open the **Scriptable** app on your Apple device and create a new, empty script using the **+** icon in the top right corner. Name it, for example, `Deye-Inverter`.
-3. **Insert code:** Copy the complete JavaScript code from the `widget-deye-inverter.js` file here on GitHub and paste it into the empty script in the app.
+3. **Insert code:** Copy the complete JavaScript code from the `widget-deye-inverter-EN.js` file here on GitHub and paste it into the empty script in the app.
 4. **Adjust configuration:** At the very top of the code in the `1. BENUTZER-EINSTELLUNGEN` (User Settings) block, enter your details:
 ```javascript
    const DEYE_IP = "192.168.XXX.XXX"; // Your inverter's IP
