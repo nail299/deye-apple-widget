@@ -8,6 +8,13 @@ Mit diesem Scriptable-Skript kannst du die Live-Leistung und die Ertragsdaten de
 
 Das Widget läuft im **Small-Format** (quadratisch) und bietet ein intelligentes Caching: Falls der Wechselrichter nachts oder bei schlechtem Wetter offline geht, stürzt das Widget nicht ab, sondern zeigt elegant die letzten bekannten Tages- und Gesamtwerte aus einer lokalen Datei an, während die aktuelle Leistung auf `0 W` gesetzt wird.
 
+**Dargestellte Daten:**
+* Aktuelle Produktion in Watt
+* Tagesproduktion (Summe)
+* Gesamtproduktion (Wechselrichter-Summe)
+* Zeitpunkt der letzten Datenaktualisierung
+* RSSI-Signalstärke (engl. *Received Signal Strength Indicator*) des Wechselrichters in Prozent
+
 ---
 
 ## 📦 Voraussetzungen (Deye)
