@@ -12,6 +12,13 @@ With this Scriptable script, you can display the live power output and yield dat
 
 The widget runs in the **Small format** (square) and features smart caching: If the inverter goes offline at night or during poor weather, the widget won't crash. Instead, it elegantly displays the last known daily and total yields from a local file, while the current power output is set to `0 W`.
 
+**Data presented:**
+* Current production in Watts
+* Daily production (sum)
+* Total production (inverter sum)
+* Time of last data update
+* Inverter's RSSI (Received Signal Strength Indicator) in percent
+
 ---
 
 ## 📦 Requirements (Deye)
