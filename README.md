@@ -25,7 +25,7 @@ The widget runs in the **Small format** (square) and features smart caching: If 
 
 | Component | Details |
 | :--- | :--- |
-| **Inverter** | A Deye inverter with an integrated Wi-Fi logger (accessible via a local IP address within the same network). |
+| **Inverter** | A Deye (or compatible) inverter with an integrated Wi-Fi logger (accessible via a local IP address within the same network). |
 | **Credentials** | Username and password for the inverter's web interface (default is often `admin` / `admin`). |
 | **Apple Device** | An iPhone, iPad, or Mac on the same Wi-Fi network as the inverter. |
 | **App** | The free **Scriptable** app from the App Store. |
